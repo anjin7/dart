@@ -1,5 +1,9 @@
 ## main함수
 
+```
+https://dartpad.dev/
+```
+
 main함수는 모든 Dart 프로그램의 Entry point
 main 함수에서 쓴 코드가 호출 (만약 main이 없다면 실행이 되지 않음)
 
