@@ -33,3 +33,16 @@ name = "chicken ";
 function이나 method 내부에 지역변수를 선언할 때는 var
 
 class에서 변수나 property를 선언할 때는 타입을 지정
+
+## Dynamic 타입
+
+여러가지 타입을 가질 수 있는 변수에 쓰임 (변수의 타입을 알 수 없을 때 주로 사용)
+
+변수를 선언할 때 dynamic을 쓰거나 값을 지정하지 않으면 dynamic
+
+```
+void main(){
+dynamic name;
+var name2;
+}
+```
