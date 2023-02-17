@@ -46,3 +46,18 @@ dynamic name;
 var name2;
 }
 ```
+
+## Null Safety
+
+개발자가 null 값을 참조할 수 없도록 하는 것
+
+String? name 은 String 또는 null
+
+기본적으로 모든 변수는 non-nullable(null이 될 수 없음)
+
+```
+void main() {
+String? name = "hello";
+name = null;
+}
+```
