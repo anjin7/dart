@@ -20,7 +20,7 @@ print("hello world");
 }
 ```
 
-## 변수를 만드는 2가지 방법
+## 변수 선언
 
 ```
 void main() {
@@ -34,7 +34,7 @@ function이나 method 내부에 지역변수를 선언할 때는 var
 
 class에서 변수나 property를 선언할 때는 타입을 지정
 
-## Dynamic 타입
+### Dynamic 타입
 
 여러가지 타입을 가질 수 있는 변수에 쓰임 (변수의 타입을 알 수 없을 때 주로 사용)
 
@@ -47,7 +47,7 @@ var name2;
 }
 ```
 
-## Null Safety
+### Null Safety
 
 개발자가 null 값을 참조할 수 없도록 하는 것
 
@@ -59,5 +59,19 @@ String? name 은 String 또는 null
 void main() {
 String? name = "hello";
 name = null;
+}
+```
+
+### final 변수
+
+final변수는 수정할 수 없음 ( 자바스크립트의 const와 비슷 )
+
+```
+void main() {
+final name = "pizza";
+name = "ham"; // 수정 불가
+
+final String username = "tom";
+name = "tom2"; // 수정 불가
 }
 ```
