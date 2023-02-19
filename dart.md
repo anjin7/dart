@@ -75,3 +75,20 @@ final String username = "tom";
 name = "tom2"; // 수정 불가
 }
 ```
+
+### late 변수
+
+데이터 없이 먼저 변수를 생성하고 나중에 데이터를 넣을 때
+
+flutter로 data fecthing을 할 때 유용
+
+late 변수를 만들고, API에 요청을 보낸 뒤
+API에서 값을 보내주면 그 응답값을 late변수에 넣어 사용
+
+```
+void main() {
+late final String name;
+
+print(name); // name 변수에 접근 불가
+}
+```
