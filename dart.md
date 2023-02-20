@@ -71,8 +71,8 @@ void main() {
 final name = "pizza";
 name = "ham"; // 수정 불가
 
-final String username = "tom";
-name = "tom2"; // 수정 불가
+final String username = "tony";
+name = "steve"; // 수정 불가
 }
 ```
 
@@ -106,7 +106,7 @@ _값이 API로부터 오거나 사용자가 화면에서 입력해야 하는 값
 
 ```
 void main() {
-const name = "tom";
+const name = "tony";
 final username = fetchAPI();
 }
 ```
