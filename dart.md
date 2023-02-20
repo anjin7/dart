@@ -98,13 +98,15 @@ print(name); // name 변수에 접근 불가
 
 dart에서 const는 compile-time constant ( js에서의 const와 다름 )
 
-**const**: 컴파일 시점에 바뀌지 않는 값 (상수)
+_값이 API로부터 오거나 사용자가 화면에서 입력해야 하는 값이라면_ => final이나 var
 
-**final**: 컴파일 시점에 바뀌는 값 (API에서 받아온 값, 사용자 입력값)
+**const** : 컴파일 시점에 바뀌지 않는 값 (상수)
+
+**final** : 컴파일 시점에 바뀌는 값 (API에서 받아온 값, 사용자 입력값)
 
 ```
 void main() {
-const name = "tom"; // 컴파일 시점에 바뀌지 않는 값
-final username=fetchAPI(); // 컴파일 시점에 바뀌는 값
+const name = "tom";
+final username = fetchAPI();
 }
 ```
