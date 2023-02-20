@@ -83,6 +83,7 @@ name = "tom2"; // 수정 불가
 flutter로 data fecthing을 할 때 유용
 
 late 변수를 만들고, API에 요청을 보낸 뒤
+
 API에서 값을 보내주면 그 응답값을 late변수에 넣어 사용
 
 ```
@@ -98,6 +99,7 @@ print(name); // name 변수에 접근 불가
 dart에서 const는 compile-time constant ( js에서의 const와 다름 )
 
 **const**: 컴파일 시점에 바뀌지 않는 값 (상수)
+
 **final**: 컴파일 시점에 바뀌는 값 (API에서 받아온 값, 사용자 입력값)
 
 ```
