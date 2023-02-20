@@ -64,7 +64,7 @@ name = null;
 
 ### final 변수
 
-final변수는 수정할 수 없음 ( 자바스크립트의 const와 비슷 )
+final변수는 수정할 수 없음 ( js의 const와 비슷 )
 
 ```
 void main() {
@@ -90,5 +90,19 @@ void main() {
 late final String name;
 
 print(name); // name 변수에 접근 불가
+}
+```
+
+### const 변수
+
+dart에서 const는 compile-time constant ( js에서의 const와 다름 )
+
+**const**: 컴파일 시점에 바뀌지 않는 값 (상수)
+**final**: 컴파일 시점에 바뀌는 값 (API에서 받아온 값, 사용자 입력값)
+
+```
+void main() {
+const name = "tom"; // 컴파일 시점에 바뀌지 않는 값
+final username=fetchAPI(); // 컴파일 시점에 바뀌는 값
 }
 ```
