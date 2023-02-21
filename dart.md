@@ -125,3 +125,32 @@ num x = 12;             // integer or double
 num y = 1.2;
 }
 ```
+
+### List
+
+```
+void main() {
+List<int> numbers = [1, 2, 3];
+var number2 = [4, 5, 6];
+}
+```
+
+**collection if** 와 **collection for**를 지원
+
+```
+void main(){
+var giveMeSix = true;
+int case1 = [
+1,
+2,
+3,
+4,
+5,
+if(giveMeSix) 6,
+];
+
+if(giveMeSix){
+case1.add(6);
+}
+}
+```
