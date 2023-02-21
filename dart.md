@@ -110,3 +110,18 @@ const name = "tony";
 final username = fetchAPI();
 }
 ```
+
+## Data type
+
+거의 대부분의 타입들이 객체로 이루어져 있음 (함수도 객체) => `dart = 객체지향 언어`
+
+```
+void main() {
+String name = "tony";
+bool isPlay = true;     // boolean
+int age = 10;           // integer
+double money = 52.55;
+num x = 12;             // integer or double
+num y = 1.2;
+}
+```
