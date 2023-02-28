@@ -167,3 +167,20 @@ case1.add(6);
 ### Collection For
 
 조건문(if) 및 반복(for)을 사용하여 컬렉션을 구축하는 데 사용할 수 있는 collection if / collection for
+
+### Maps
+
+key와 value를 연결하는 Object
+
+```
+var food = Map();
+food['korean'] = 'kimbap';
+food['japanese'] = 'takoyaki';
+
+//
+// var food = {
+//   'korean' : 'kimbap',
+//   'japanese' : 'takoyaki'
+// };
+
+```
