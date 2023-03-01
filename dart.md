@@ -184,3 +184,9 @@ food['japanese'] = 'takoyaki';
 // };
 
 ```
+
+### Sets
+
+Set에 속한 모든 아이템들이 유니크 할 때 사용
+
+## Function
