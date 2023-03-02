@@ -190,3 +190,6 @@ food['japanese'] = 'takoyaki';
 Set에 속한 모든 아이템들이 유니크 할 때 사용
 
 ## Function
+
+함수도 object 타입이 Function
+=> 함수를 변수에 할당하거나 다른 함수에 인수로 전달할 수 있음
