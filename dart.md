@@ -196,4 +196,4 @@ Set에 속한 모든 아이템들이 유니크 할 때 사용
 
 ### Named parameters
 
-기본값을 제공하지 않거나 Named parameters를 필수로 표시하지 않으면 해당 유형은 기본값이 null
+기본값을 제공하지 않거나 Named parameters를 필수로 표시하지 않으면 기본값은 null
