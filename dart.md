@@ -197,3 +197,20 @@ Set에 속한 모든 아이템들이 유니크 할 때 사용
 ### Named parameters
 
 기본값을 제공하지 않거나 Named parameters를 필수로 표시하지 않으면 기본값은 null
+
+```
+String sayHello({
+String name,
+int age,
+String country
+}) => return "Hello $name, age: $age, country $country";
+
+void main(){
+  print(sayHello({
+    name: "tony",
+    age: 17,
+    country: "korea",
+    });
+  );
+}
+```
