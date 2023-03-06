@@ -217,13 +217,22 @@ void main(){
 
 ### Optional, Positional parameter
 
-```
-String sayHello(String name, int age, [String? country = ""]) {
-return 'Hello ${name}, You are ${age} from the ${country}';
-}
+타입 뒤에 `?`
 
-void main() {
-var result = sayHello("tony", 10);
-print(result);
+```
+String sayHello(
+String name,
+int age,
+// default value
+[String? country = "korea"],
+) => return "Hello $name, age: $age, country $country";
+
+void main(){
+  print(sayHello({
+    name: "tony",
+    age: 17,
+    country: "korea",
+    });
+  );
 }
 ```
