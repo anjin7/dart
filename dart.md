@@ -237,9 +237,9 @@ void main(){
 }
 ```
 
-## QQ Operator
+### QQ Operator
 
-### QQ question operator
+\- **QQ question operator**
 
 ?? 연산자를 이용하면 왼쪽 값이 null인지 체크
 
@@ -252,5 +252,27 @@ name ??= "tony";
 name = null;
 name ??= "js";
 print(name); // js
+}
+```
+
+### TypeDef
+
+자료형에 사용자가 원하는 alias를 붙일 수 있음
+
+```
+List reverseListOfNumbers(List list) {
+var reversed = list.reversed;
+return reversed.toList();
+}
+```
+
+->
+
+```
+typedef ListOfInts = List;
+
+ListOfInts reverseListOfNumbers(ListOfInts list) {
+var reversed = list.reversed;
+return reversed.toList();
 }
 ```
