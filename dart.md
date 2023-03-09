@@ -266,7 +266,7 @@ return reversed.toList();
 }
 ```
 
-->
+-> typedef 이용
 
 ```
 typedef ListOfInts = List;
