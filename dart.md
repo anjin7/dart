@@ -276,3 +276,23 @@ var reversed = list.reversed;
 return reversed.toList();
 }
 ```
+
+## Class
+
+property를 선언할 때는 타입을 사용해서 정의
+
+```
+class Player {
+final String name = 'tony';
+final int age = 27;
+void sayName(){
+// class 안에서 this 쓰지 않는 것을 권장
+print("Hi my name is $name")
+}
+}
+
+void main(){
+// new를 꼭 붙이지 않아도 됨
+var player =Player();
+}
+```
