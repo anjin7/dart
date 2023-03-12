@@ -296,3 +296,22 @@ void main(){
 var player =Player();
 }
 ```
+
+### constructor
+
+생성자(constructor)함수는 클래스 이름과 같아야 함
+
+```
+class Player {
+
+  late final String name;
+  late final int age;
+
+  Player(this.name, this.age);
+}
+
+void main(){
+  var player = Player("tony", 15);
+}
+
+```
