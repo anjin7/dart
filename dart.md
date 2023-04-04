@@ -139,6 +139,8 @@ var number2 = [4, 5, 6];
 
 **collection if** 와 **collection for**를 지원
 
+#### collection if
+
 ```
 void main(){
 var giveMeSix = true;
