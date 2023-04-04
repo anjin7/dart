@@ -141,6 +141,8 @@ var number2 = [4, 5, 6];
 
 #### collection if
 
+It allows us to run an `if` while constructing a list
+
 ```
 void main(){
 var giveMeSix = true;
@@ -171,6 +173,8 @@ case1.add(6);
 ### Collection For
 
 조건문(if) 및 반복(for)을 사용하여 컬렉션을 구축하는 데 사용할 수 있는 collection if / collection for
+
+It allows us to run a `for` loop while constructing a list
 
 ### Maps
 
