@@ -208,6 +208,23 @@ void main(){
 
 Set에 속한 모든 아이템들이 유니크 할 때 사용
 
+```
+Dart Set -> JS Set
+Dart Set -> Python Set
+
+Dart List -> JS Array
+Dart List -> Python List
+```
+
+```
+void main(){
+  var numbers = {1, 2, 3, 4};
+
+  // List
+  // var numbers = [1, 2, 3, 4];
+}
+```
+
 ## Function
 
 함수도 object 타입이 Function
@@ -218,6 +235,9 @@ Set에 속한 모든 아이템들이 유니크 할 때 사용
 기본값을 제공하지 않거나 Named parameters를 필수로 표시하지 않으면 기본값은 null
 
 ```
+// 하나 => (return할 내용)
+// 둘 이상 => return
+
 String sayHello({
 String name,
 int age,
