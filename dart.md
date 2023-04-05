@@ -193,6 +193,17 @@ food['japanese'] = 'takoyaki';
 
 ```
 
+```
+void main(){
+  List<Map<String, Object>> players = [
+    {'name': 'tony', 'xp': 999.999},
+    {'name': 'stark', 'xp': 999.999},
+  ]
+}
+// object 이면 any
+// 추천하지는 않는 방법 -> class로 대체
+```
+
 ### Sets
 
 Set에 속한 모든 아이템들이 유니크 할 때 사용
