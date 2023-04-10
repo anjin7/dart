@@ -184,7 +184,6 @@ key와 value를 연결하는 Object
 var food = Map();
 food['korean'] = 'kimbap';
 food['japanese'] = 'takoyaki';
-
 //
 // var food = {
 //   'korean' : 'kimbap',
