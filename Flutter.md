@@ -4,4 +4,4 @@
 
 ### Architectural layers
 
-![Architectural layers](./img/archdiagram.jpg)
+![Architectural layers](./img/archdiagram.png)
