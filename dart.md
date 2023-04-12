@@ -255,7 +255,7 @@ void main(){
 
 ### Optional, Positional parameter
 
-타입 뒤에 `?`
+Optional : 타입 뒤에 `?`
 
 ```
 String sayHello(
@@ -281,7 +281,7 @@ void main(){
 
 ?? 연산자를 이용하면 왼쪽 값이 null인지 체크
 
--> null이 아니면 왼쪽 값을 리턴 / null이면 오른쪽 값을 리턴
+-> **null이 아니면 왼쪽 값**을 리턴 / **null이면 오른쪽 값**을 리턴
 
 ```
 void main() {
