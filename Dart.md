@@ -295,6 +295,8 @@ print(name); // js
 
 ### TypeDef
 
+**Type Definition**
+
 자료형에 사용자가 원하는 alias를 붙일 수 있음
 
 ```
