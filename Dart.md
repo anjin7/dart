@@ -356,6 +356,18 @@ void main(){
 
 ```
 
+### Named Constructor Parameters
+
+클래스가 거대해질 경우 인자가 많은 생성자 함수를 만드는 것은 비효율적
+
+**해결방법**
+
+\ 1. 중괄호 {}
+
+\ 2. name parameter
+
+\* 변수가 null일 수도 있기 때문에 required를 이용하거나 default 값 설정
+
 ### Named Constructors
 
 만약 생성자(constructor) 함수를 여러개 만들고 싶다면
@@ -366,4 +378,4 @@ void main(){
 
 ### Inheritance
 
-상속을 하고 super를 이용해 부모 클래스의 생성자를 호출할 수 있다
+상속을 하고 super를 이용해 부모 클래스의 생성자를 호출할 수 있음
