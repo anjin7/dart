@@ -379,3 +379,5 @@ void main(){
 ### Inheritance
 
 상속을 하고 super를 이용해 부모 클래스의 생성자를 호출할 수 있음
+
+### Cascade Notation
