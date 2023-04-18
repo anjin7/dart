@@ -381,3 +381,22 @@ void main(){
 상속을 하고 super를 이용해 부모 클래스의 생성자를 호출할 수 있음
 
 ### Cascade Notation
+
+argument의 value들을 바꾸고 싶을 때 조금 더 편리하게 `..`를 이용
+
+```
+void main() {
+var player = Player(name : 'nico', xp : 1600, team : 'red');
+player.name = 'hi';
+player.xp = 1450;
+player.team = 'blue;
+
+=>
+
+var player = Player(name : 'nico', xp : 1600, team : 'red')
+..name = 'hi'
+..xp = 1450
+..team = 'blue;
+
+}
+```
