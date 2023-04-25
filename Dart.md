@@ -400,3 +400,9 @@ var player = Player(name : 'nico', xp : 1600, team : 'red')
 
 }
 ```
+
+### Enums
+
+실수하지 않도록 도와주는 type
+
+enum type의 변수들은 해당 enum type에 생성된 값들 중에서만 값이 할당될 수 있음
