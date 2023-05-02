@@ -139,9 +139,15 @@ var number2 = [4, 5, 6];
 
 **collection if** 와 **collection for**를 지원
 
-#### collection if
+#### Collection if
 
 It allows us to run an `if` while constructing a list
+
+### Collection for
+
+조건문(if) 및 반복(for)을 사용하여 컬렉션을 구축하는 데 사용할 수 있는 collection if / collection for
+
+It allows us to run a `for` loop while constructing a list
 
 ```
 void main(){
@@ -169,12 +175,6 @@ case1.add(6);
 \* $ 그대로 표시는 escape문자 \\$
 
 \* String 내부에 따옴표 사용은 \\' 혹은 \\"를 사용하거나 다른 따옴표로 String 열고 닫기
-
-### Collection For
-
-조건문(if) 및 반복(for)을 사용하여 컬렉션을 구축하는 데 사용할 수 있는 collection if / collection for
-
-It allows us to run a `for` loop while constructing a list
 
 ### Maps
 
