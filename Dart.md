@@ -255,7 +255,11 @@ void main(){
 
 ### Optional, Positional parameter
 
-Optional : 타입 뒤에 `?`
+Optional
+
+\- parameter 타입 뒤에 `?`
+
+\- []를 통해 optional값으로 지정 (호출 시 null을 명시적으로 할당하는지)
 
 ```
 String sayHello(
