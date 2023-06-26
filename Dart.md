@@ -6,6 +6,10 @@ https://dartpad.dev/
 
 Flutter uses Dart's JIT(Just-In-Time) on development and AOT(Ahead-Of-Time) on production.
 
+**JIT** : JS
+
+**AOT** : C, C++, RUST, Go
+
 ## main함수
 
 main함수는 모든 Dart 프로그램의 Entry point
