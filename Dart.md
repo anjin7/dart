@@ -364,6 +364,8 @@ void main(){
 
 ```
 
+For the class constructor we don't have to use the constructor keyword.
+
 ### Named Constructor Parameters
 
 클래스가 거대해질 경우 인자가 많은 생성자 함수를 만드는 것은 비효율적
@@ -419,6 +421,10 @@ enum type의 변수들은 해당 enum type에 생성된 값들 중에서만 값�
 
 \- 추상 클래스를 상속받는 클래스는 추상 클래스의 메소드를 구현해야 함
 
+**The difference between a class and an abstract class**
+
+-> We can't create an instance of an abstract class
+
 ### Inheritance
 
 상속을 하고 super를 이용해 부모 클래스의 생성자를 호출할 수 있음
@@ -448,3 +454,7 @@ Mixin / Interface
  Mixin은 클래스에 코드를 적용하는 데 사용되고,
  Interface는 클래스나 객체가 가져야 하는 기능의 규격을 정의하는 데 사용
 ```
+
+### super
+
+To call the constructor of the class we are extending from
